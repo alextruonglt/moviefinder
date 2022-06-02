@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <script
+      src="https://kit.fontawesome.com/615f70c9e4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="banner">
+      <div class="banner-text">
+        <h1>Find your film</h1>
+        <h3 id="myWatchListbtn" onclick="pageToWatchlist()">My Watchlist</h3>
+      </div>
+    </div>
+    <div class="searchbar">
+      <form>
+        <span><img src="SearchIcon.png" /></span>
+        <input id="searchInput" type="text" placeholder="Search A Movie" />
+        <button id="search-btn" class="search-btn">Search</button>
+      </form>
+    </div>
+
+    <!-- ****DEFUALT***** -->
+
+    <!-- ****DEFUALT***** -->
+
+    <div class="container">
+      <div class="movie-container" id="movie-container">
+        <div class="explore" id="explore">
+          <img src="MovieRoll.png" alt="" />
+          <p>Start Exploring</p>
+        </div>
+        <!-- ****DEFUALT***** -->
+
+        <!-- ****BELOW IS WHAT WOULD GET RENDERED BY JS***** -->
+
+        <!-- <div class="movie">
+          <div class="img-holder">
+            <img
+              src="https://m.media-amazon.com/images/M/MV5BNjM0NTc0NzItM2FlYS00YzEwLWE0YmUtNTA2ZWIzODc2OTgxXkEyXkFqcGdeQXVyNTgwNzIyNzg@._V1_SX300.jpg"
+              alt=""
+            />
+          </div>
+          <div class="movie-info">
+            <div class="movie-title">
+              <h2>Blade Runner</h2>
+              <p><i class="fas fa-star"></i> 8.1</p>
+            </div>
+            <div class="movie-details">
+              <p>117 min</p>
+              <p>Action, Drama, Sci-fi</p>
+              <p id="watchlist">
+                <i class="fa fa-plus-circle" aria-hidden="true"></i> Watchlist
+              </p>
+            </div>
+            <div class="movie-summary">
+              <p>
+                A blade runner must pursue and terminate four replicants who
+                stole a ship in space, and have returned to Earth to find their
+                creator.
+              </p>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

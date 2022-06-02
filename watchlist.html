@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Watch List</title>
+
+    <script
+      src="https://kit.fontawesome.com/615f70c9e4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="banner">
+      <div class="banner-text">
+        <h1>My Watchlist</h1>
+        <h3 onclick="pageToSearch()">Search For Movies</h3>
+      </div>
+    </div>
+    <!-- <div class="searchbar">
+      <form>
+        <span><img src="SearchIcon.png" /></span>
+        <input id="searchInput" type="text" placeholder="Search A Movie" />
+        <button id="search-btn" class="search-btn">Search</button>
+      </form>
+    </div> -->
+
+    <!-- ****DEFUALT***** -->
+
+    <div class="container watchlist-container">
+      <div class="movie-container" id="movie-container">
+        <div class="explore" id="explore">
+          <h3 class="watchlist-empty">
+            Your watchlist is looking a little empty...
+          </h3>
+          <p id="watch-add" onclick="pageToSearch()">
+            <i class="fa fa-plus-circle" aria-hidden="true"></i> Let's add some
+            movies
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- <script src="script.js"></script> -->
+    <script src="watchlist.js"></script>
+  </body>
+</html>
