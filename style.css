@@ -146,7 +146,7 @@ form button:active {
 /* Movies */
 
 .movie-container {
-  width: 84%;
+  max-width: 40rem;
   height: 100%;
   /* border: 1px solid blue; */
   margin: 0 auto;
