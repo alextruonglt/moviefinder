@@ -48,9 +48,10 @@ body {
 .searchbar {
   background: white;
   border: 1px solid #d1d5db;
-  /* border: 1px solid green; */
+
   border-radius: 5px 5px 5px 5px;
-  width: 84%;
+  /* width: 84%; */
+  width: 40rem;
   margin: 0 auto;
   transform: translateY(-50%);
   /* height: 5%; */
