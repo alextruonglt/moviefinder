@@ -50,11 +50,12 @@ body {
   border: 1px solid #d1d5db;
 
   border-radius: 5px 5px 5px 5px;
-  /* width: 84%; */
-  width: 40rem;
+
+  max-width: 40rem;
+
   margin: 0 auto;
   transform: translateY(-50%);
-  /* height: 5%; */
+
   height: 3rem;
 }
 
@@ -73,7 +74,7 @@ form span {
 }
 
 form input {
-  width: 72%;
+  width: 40rem;
   height: 100%;
   border-radius: 5px 0 0 5px;
   font-weight: 500;
@@ -235,3 +236,9 @@ form button:active {
 .watchlist:active {
   transform: scale(0.97);
 }
+
+/* @media (max-width: 650px) {
+  .explore {
+    background-color: lightblue;
+  }
+} */
